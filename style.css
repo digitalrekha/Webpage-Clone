@@ -1,0 +1,117 @@
+body {
+    background-image: url("assets/background-image.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: fit-content;
+    width: fit-content;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn1 {
+    border: 1px solid #ed017f;
+    background-color: #ed017f;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.car-loan {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.btn2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 1px 15px;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 30px gray;
+
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sec-left h1 {
+    padding-left: 85px;
+    font-size: 60px;
+}
+
+.sec-left p {
+    padding-left: 85px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.btn {
+
+    padding-left: 85px;
+}
+
+.btn3 {
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ed017f;
+    color: white;
+    margin-right: 15px;
+}
+
+.btn4 {
+    border: 1px solid #ed017f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #ed017f;
+    background-color: white;
+}
+
+.social {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 85px;
+    padding-top: 20px;
+}
+
+.sec-right {
+    position: relative;
+    top: -100px;
+}
+
+.home-loan {
+    margin-left: 550px;
+    margin-top: -450px;
+
+}
